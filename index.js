@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 require("dotenv").config();
-const gramineas = require("./routes/rutasG");
+const gramineas = require("./Backend/routes/rutasG");
 
 const PORT = process.env.PORT || 3000;
 const app = express();
